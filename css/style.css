@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 20%;
+}
+.carousel-item{
+    height: 75%;
+    width: 80%;
+}
+.footer{
+    text-align: center;
+    background-color: #03b9fc;
+    display: grid;
+    grid-template-rows: 33% 33% 33%;
+    grid-row-gap: auto;
+    padding: .3px;
+
+}
+.footer__inf{
+    font-size: smaller;
+    color: white;
+    padding-left: 1cm;
+    padding: .5rem;
+}
+.footer a{
+    text-align: center;
+}
+.footer__media{
+    width: 3rem;
+    padding: .3rem;
+}
